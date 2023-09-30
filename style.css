@@ -1,0 +1,65 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline:0;
+}
+.container{
+	height: 100vh;
+	width: 100vw;
+	text-align:center;
+	color:#FF69B4;
+	background: white;
+
+}
+.love,.yes,.no,.oo,.y,.hindi,.n,.depends{padding-top: 15%;
+		
+		}
+.love span{color:red;}
+h2{font-size: 80px;margin-bottom: 20px;}
+a{font-size: 50px;text-decoration: none;padding: 5px 10px;
+	margin-top: 40px;border:3px solid #ddd; border-radius: 10px;}
+#no{color:red; background: #eee;margin-right: 50px;}
+#yes{color:green;background: #eee;}
+#oo{color:green;background: #eee;}
+#y{color:green;background: #eee;}
+#hindi{color:red; background: #eee;margin-right: 50px;}
+#n{color:red; background: #eee;margin-right: 50px;}
+#sge{color:green;background: #eee;}
+#depends{color:red; background: #eee;margin-right: 50px;}
+.yes img{
+	height: 30px;
+	width: 30px;
+	animation: image 4s linear infinite;
+}
+.y img{
+	height: 400px;
+	width: 400px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+
+.hindi img{
+	height: 500px;
+	width: 500px;
+	display: block;
+  	margin-left: auto;
+	margin-right: auto;
+}
+.n img{
+	height: 500px;
+	width: 500px;
+	display: block;
+	margin-right: auto;
+}
+.sge img{
+	height: 400px;
+	width: 400px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+
+@keyframes image{
+	0%{transform: scale(.5);}
+	50%{transform: scale(1.5);}
+	100%{transform: scale(.5);}
+}
